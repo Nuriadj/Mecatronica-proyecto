@@ -1,0 +1,11 @@
+PINES MECATRONICA:
+
+- D1 => E
+- D2 => A
+- D3 => C
+- D4 => K
+- A0 => Eje X
+- D6 => B
+- D7 => D
+- D8 => F
+- A1 => Eje y

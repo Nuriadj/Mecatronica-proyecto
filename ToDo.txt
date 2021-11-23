@@ -1,0 +1,8 @@
+ ToDo list:
+
+- Laser: terminar de montar (soldar y probar) y ajustar diseño y volver a imprimir. 
+- Coche: Terminar diseño imprimir y probar  
+- Pinza: Terminar diseño imprimir y probar
+- Brazo: Terminar diseño imprimir y probar
+- Mando: Hacer codigo y probar
+- Hacer: Wiki
