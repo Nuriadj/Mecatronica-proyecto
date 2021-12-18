@@ -2,9 +2,9 @@
 #include <Stepper.h>
 #define STEPS ?
 
-int motorPinza= ;
-int motorRueda1= ;
-int motorRueda2= ;
+int motorPinza= ?;
+int motorRueda1= ?;
+int motorRueda2= ?;
 
 Stepper stepper(STEPS, ?, ?, ?, ?);
 
@@ -15,8 +15,8 @@ void setup() {
   int dir_nema1= 1;// 1 o -1
   int dir_nema2= 1;// 1 o -1
 
-  int vel_pinza= ;//velocidad para la pinza
-  int vel_mruedas= ;// velocidad para las ruedas
+  int vel_pinza= ?;//velocidad para la pinza
+  int vel_mruedas= ?;// velocidad para las ruedas
 
   int mult_vel1= 1;//darle mas velocidad a la rueda 1 para que gire
   int mult_vel2= 1;//darle mas velocidad a la rueda 1 para que gire
@@ -39,7 +39,7 @@ void loop() {
   
   for(int i= 7; i >= 0; i--){
     val= bitRead(?, i);// lee un bit, i es la pos 0 es el menos signif (derecha)
-    Serial.print(bitRead(x, i));
+    Serial.print(bitRead(?, i));
 
     //--- Pinza ----
     if (i == 7) and (val == 1){
@@ -115,7 +115,7 @@ void loop() {
     //--- Abrir o cerrar pinza ---
     if (c_pinza == 1){
       if((millis() - start_time) < max_time){
-        analogWrite(motorPinza, speed);// hay que definir speed
+        analogWrite(motorPinza, );// hay que definir la velocidad de la pinza
       }
       else{
         analogWrite(motorPinza, 0);
