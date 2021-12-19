@@ -1,0 +1,16 @@
+01 //-- Stop
+01 //-- FW
+01 //-- Stop
+10 //-- Dir / step
+11 //-- Stop
+11 //-- IZQ
+11 //-- Stop
+11 //-- DER
+00 //-- Stop
+00 //-- FW
+00 //-- Stop
+00 //-- BW
+00 //-- Stop
+00 //-- IZQ
+00 //-- Stop
+00 //-- DER
