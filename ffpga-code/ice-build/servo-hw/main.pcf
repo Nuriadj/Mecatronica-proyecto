@@ -2,9 +2,9 @@
 
 set_io v13e0c4 34
 set_io va56f74 33
-set_io vbaae1a 4
+set_io vbaae1a 9
 set_io v77d976 41
-set_io v991127 3
+set_io v991127 10
 set_io vclk 49
 set_io vinit[0] 45
 set_io vinit[1] 44

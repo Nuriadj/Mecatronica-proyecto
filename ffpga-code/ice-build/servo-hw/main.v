@@ -4,7 +4,7 @@
 
 //---- Top entity
 module main #(
- parameter v910a9f = 12000000*(0.25),
+ parameter v910a9f = 12000000,
  parameter v033309 = 12000000*(0.5)
 ) (
  input v13e0c4,

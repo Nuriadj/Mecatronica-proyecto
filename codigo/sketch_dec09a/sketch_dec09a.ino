@@ -1,7 +1,7 @@
 #include <SPI.h>
 
 #define yaxis 13
-#define xaxis 12
+#define xaxis 33
 #define SS 50
 
 void setup() {
